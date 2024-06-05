@@ -5,13 +5,16 @@
 
 **Methodology**  
 
-Optimization:
+Optimization:  
+
 RMSprop optimization is popular optimizer choice for segmentation tasks but adamW could also handled by a UNet model.  
 
-Learning rate:
+Learning rate:  
+
 selecting a too large learning rate isn't necessary.  
 
-L2 regularization: 
+L2 regularization:   
+
 we're not utilizing L2 regularization.
 
 **Results**
@@ -30,19 +33,23 @@ Automatic classification and segmentation of land cover is critical for sustaina
 ### 2. Scope of reproducibility
 
 ### 3. Methodology
-Optimization:
+Optimization:  
+
 RMSprop optimization is popular optimizer choice for segmentation tasks but adamW could also handled by a UNet model. Its adaptive learning rate mechanism can help navigate complex loss landscapes, potentially leading to faster convergence and improved segmentation accuracy. 
 
-Learning rate:
+Learning rate:  
+
 RMSprop adjusts the learning rate itself, so selecting a too large learning rate isn't necessary.
 
-L2 regularization: 
+L2 regularization:  
+
 While weight decay acts as L2 regularization and can prevent overfitting in the model, in this case, with these hyperparameters, we haven't encountered overfitting, so we're not utilizing L2 regularization.
 
 ### 4. Results
 Photos of results when you run Unet 
 
-![image](https://github.com/jimmynkim/HW3/assets/75557016/8ef302a0-3e4f-43f6-a516-5c721f3c9ea7)
+![image](https://github.com/jimmynkim/HW3/assets/75557016/8ef302a0-3e4f-43f6-a516-5c721f3c9ea7)  
+
 IoU 값은 0.4213
 
 ### 5. Discussion
