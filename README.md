@@ -1,7 +1,8 @@
 # Reproducibility Project
 ## [Re] DeepGlobe 2018: A Challenge to Parse the Earth through Satellite Images
 
-### Reproducibility Summary
+### Reproducibility Summary  
+
 
 **Methodology**  
 
@@ -17,9 +18,11 @@ L2 regularization:
 
 we're not utilizing L2 regularization.
 
-**Results**
+**Results**  
 
-**What was easy**  
+
+**What was easy**    
+
 
 The paper is made up of clear and concise codes and is informative.
 
@@ -32,7 +35,8 @@ Automatic classification and segmentation of land cover is critical for sustaina
 
 ### 2. Scope of reproducibility
 
-### 3. Methodology
+### 3. Methodology  
+
 Optimization:  
 
 RMSprop optimization is popular optimizer choice for segmentation tasks but adamW could also handled by a UNet model. Its adaptive learning rate mechanism can help navigate complex loss landscapes, potentially leading to faster convergence and improved segmentation accuracy. 
@@ -45,7 +49,8 @@ L2 regularization:
 
 While weight decay acts as L2 regularization and can prevent overfitting in the model, in this case, with these hyperparameters, we haven't encountered overfitting, so we're not utilizing L2 regularization.
 
-### 4. Results
+### 4. Results  
+
 Photos of results when you run Unet 
 
 ![image](https://github.com/jimmynkim/HW3/assets/75557016/8ef302a0-3e4f-43f6-a516-5c721f3c9ea7)  
