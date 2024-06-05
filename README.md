@@ -3,7 +3,7 @@
 
 ### Reproducibility Summary
 
-*Methodology*
+**Methodology**
 Optimization:
 RMSprop optimization is popular optimizer choice for segmentation tasks but adamW could also handled by a UNet model.
 Learning rate:
