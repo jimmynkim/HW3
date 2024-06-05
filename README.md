@@ -3,7 +3,6 @@
 
 ### Reproducibility Summary  
 
-
 **Methodology**  
 
 Optimization:  
@@ -19,10 +18,11 @@ L2 regularization:
 we're not utilizing L2 regularization.
 
 **Results**  
+RMSprop  optimization is popular optimizer choice for segmentation tasks.  
 
+Its adaptive learning rate mechanism can improved segmentation accuracy.  
 
 **What was easy**    
-
 
 The paper is made up of clear and concise codes and is informative.
 
