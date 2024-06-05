@@ -3,20 +3,25 @@
 
 ### Reproducibility Summary
 
-**Methodology**
+**Methodology**  
+
 Optimization:
-RMSprop optimization is popular optimizer choice for segmentation tasks but adamW could also handled by a UNet model.
+RMSprop optimization is popular optimizer choice for segmentation tasks but adamW could also handled by a UNet model.  
+
 Learning rate:
-selecting a too large learning rate isn't necessary.
+selecting a too large learning rate isn't necessary.  
+
 L2 regularization: 
 we're not utilizing L2 regularization.
 
-*Results*
+**Results**
 
-*What was easy*
+**What was easy**  
+
 The paper is made up of clear and concise codes and is informative.
 
-*What was difficult*
+**What was difficult**  
+
 Finding the appropriate learning rate, batch size, and other hyperparameters was difficult. This will need to be adjusted through experimentation, and it may take time to determine which value is optimal. Code execution takes too long. Running a model takes approximately 10 hours or more, so if an error occurs, it must be executed again from the beginning, which is time consuming.
 
 ### 1. Introduction
