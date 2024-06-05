@@ -1,7 +1,9 @@
 # Reproducibility Project
-## [Re] DeepGlobe 2018: A Challenge to Parse the Earth through Satellite Images
+## [Re] DeepGlobe 2018: A Challenge to Parse the Earth through Satellite Images  
+
 
 ### Reproducibility Summary  
+
 
 **Methodology**  
 
@@ -18,6 +20,7 @@ L2 regularization:
 we're not utilizing L2 regularization.
 
 **Results**  
+
 RMSprop  optimization is popular optimizer choice for segmentation tasks.  
 
 Its adaptive learning rate mechanism can improved segmentation accuracy.  
