@@ -1,7 +1,7 @@
 # HW3
-##[Re] DeepGlobe 2018: A Challenge to Parse the Earth through Satellite Images
+## [Re] DeepGlobe 2018: A Challenge to Parse the Earth through Satellite Images
 
-###Reproducibility Summary
+### Reproducibility Summary
 
 *Methodology*
 
